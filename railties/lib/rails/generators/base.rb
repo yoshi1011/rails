@@ -25,6 +25,7 @@ module Rails
 
       add_runtime_options!
       strict_args_position!
+      check_unknown_options!
 
       def self.exit_on_failure? # :nodoc:
         false
